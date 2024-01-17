@@ -97,7 +97,7 @@ public class GameOfLife {
 		for (int i = 1 ; i <rows - 1 ; i++){
 			for (int j = 1 ; j < columns - 1 ; j++ ){
 				int nValue = cellValue(Board, i, j);
-				nBoard[i][j] = nValue
+				nBoard[i][j] = nValue ;
 			}
 		}
 

@@ -116,7 +116,7 @@ public class GameOfLife {
 	private static int cellValue(int[][] board, int i, int j) {
 		int livingNeigbors = count(board, i, j) ; 
 
-		if (boars[i][j] == 1 ){
+		if (board[i][j] == 1 ){
 			if (livingNeigbors == 3 || livingNeigbors == 2){
 				return 1 ;
 			} else{
